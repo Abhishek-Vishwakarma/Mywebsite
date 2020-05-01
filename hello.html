@@ -2,8 +2,64 @@
 <html>
 	<head>
 		<title>MyWebSite!</title>
+			<link rel="stylesheet" href="style.css">
+			<style>
+				div{
+					background-color:teal;
+					width: 50%;
+					margin: 50px;
+					padding: 20px;
+					font-family:Arial;
+					font-size: 28px;
+					font-weight: bold;
+				}
+				table{
+					border: 2px solid black;
+					border-collapse: collapse;
+					width: 50%;
+				}
+				th,td{
+					border: 1px solid black;
+					padding: 5px;
+					text-align: center;
+				}
+				th{
+					background-color: lightgray;
+				}
+			</style>
 	</head>	
 	<body>
-		hello there!
+		<div>
+		<h1>Happy Birthday</h1>
+		<img src="G:\abhishek\photo\20160715_134242.jpg" width="50%">
+		<h2>PRESIDENTS</h2>
+		<table>
+			<tr>
+				<th>first_name</th>
+				<th>last_name</th>
+				<th>years_in_office</th>
+			</tr>
+			<tr>
+				<td>georgr</td>
+				<td>washinton</td>
+				<td>1789-1797</td>
+			</tr>
+			<tr>
+				<td>adam</td>
+				<td>JOHN</td>
+				<td>1797-1801</td>
+			</tr>
+			<tr>
+				<td>thomas</td>
+				<td>jefferson</td>
+				<td>1801-1809</td>
+			</tr>
+		</table>
+
+		<form>
+			<input type="text" placeholder="fullname" name="name">
+			<button>SUMBIT</button>
+		</form>
+	</div>
 	</body>
 </html>
